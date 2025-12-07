@@ -755,14 +755,14 @@
  if PrefixChange == nil then
  Notify({
  Description = "Please enter a valid prefix";
- Title = "Nameless Admin";
+ Title = "Infinite Admin";
  Duration = 5;
  
  });
  elseif PrefixChange == "p" or PrefixChange == "[" or PrefixChange == "P" then
 	 Notify({
 		 Description = "idk why but this prefix breaks changing the prefix so pick smthing else alr?";
-		 Title = "Nameless Admin";
+		 Title = "Infinite Admin";
 		 Duration = 5;
 		 
 		 });
@@ -770,7 +770,7 @@
  opt.prefix = PrefixChange
  Notify({
  Description = "Prefix set to " .. PrefixChange .. "";
- Title = "Nameless Admin";
+ Title = "Infinite Admin";
  Duration = 5;
  
  });
@@ -784,14 +784,14 @@
  if PrefixChange == nil then
  Notify({
  Description = "Please enter a valid prefix";
- Title = "Nameless Admin";
+ Title = "infinite Admin";
  Duration = 5;
  
  });
  elseif PrefixChange == "p" or PrefixChange == "[" or PrefixChange == "P" then
 	 Notify({
 		 Description = "idk why but this prefix breaks changing the prefix so pick smthing else alr?";
-		 Title = "Nameless Admin";
+		 Title = "infinite Admin";
 		 Duration = 5;
 		 
 		 });
@@ -800,7 +800,7 @@
  opt.prefix = PrefixChange
  Notify({
  Description = "Prefix saved to '" .. PrefixChange .. "'";
- Title = "Nameless Admin";
+ Title = "infinite Admin";
  Duration = 5;
  
  });
